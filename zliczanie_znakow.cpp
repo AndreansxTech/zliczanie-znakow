@@ -1,6 +1,13 @@
 #include <iostream>
+#include <conio.h>
 using namespace std;
+int znak=0;
 int main()
 {
-  return(0);
+    while(znak!=27)
+    {
+        
+    }
+    
+    return 0;
 }
