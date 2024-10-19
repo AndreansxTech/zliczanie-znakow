@@ -1,18 +1,17 @@
 #include <iostream>
 #include <conio.h>
 using namespace std;
-
+char znak;
 int main()
 {
-    char znak=0;
     while(znak!=27)
         {
-            cout<<"Podaj liczbe: ";
+            cout<<"Podaj znak: ";
             znak=getch();
-            if(znak==27)
-                cout<<"Wcisnieto ESC\n";
+            if (znak!=27)
+                cout<<znak<<endl;
             else
-                cout<<znak<<"\n";
+                cout<<"podano esc\n";
         }
     return 0;
 }
