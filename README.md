@@ -1,5 +1,5 @@
 # zliczanie-znakow</br>
-<img alt="Static Badge" src="https://img.shields.io/badge/Na%20informatyk%C4%99-%233f47eb">  <img alt="Static Badge" src="https://img.shields.io/badge/C%2B%2B-%23ff3366">  <img alt="Static Badge" src="https://img.shields.io/badge/Licznik-%23993333">
+<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/t/AndreansxTech/zliczanie-znakow">  <img alt="Static Badge" src="https://img.shields.io/badge/Na%20informatyk%C4%99-%233f47eb">  <img alt="Static Badge" src="https://img.shields.io/badge/C%2B%2B-%23ff3366">  <img alt="Static Badge" src="https://img.shields.io/badge/Licznik-%23993333">  
 
 
 Zadanie na informatyke w szkole</br>
