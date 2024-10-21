@@ -1,36 +1,29 @@
 #include <iostream>
-#include <stdio.h>
 #include <conio.h>
 using namespace std;
-const int ROZMIAR=999;
-char znak;
-int suma=0;
-int wprowadzone;
-int tablica[ROZMIAR];
-void oblicz_maks()
-{
-    for (int i=0; i<wprowadzone; i++)
-    {
-        suma=tablica[i]+suma;
-    }
-}
 int main()
 {
-    while(znak!=27)
+    int liczba,suma,licznik;int MAKS=999;
+    int liczby[MAKS];
+    char znak;
+    cout<<"Zliczanie znakow. Wpisuj znaki a aby zakonczyc wcisnij ESC\n";
+    while (true)
     {
+        cout<<"Podaj znak: ";znak=getch();
         if (znak==27)
+            break;
+        else if (znak>='0'&&znak<='9')
         {
-            cout<<"wprowadzono esc\n";
-
+            cout<<znak;
+            liczba=znak-'0'; cout<<endl; suma=suma+liczba; licznik++;
+            cout<<liczba<<endl;
         }
         else
         {
-            cout<<"podaj liczbe: ";
-            tablica[wprowadzone]=getch(); znak=tablica[wprowadzone]; cout<<znak<<"\n"; wprowadzone++;
+            cout<<"Nie poprawny znak !\n";
         }
     }
-    cout<<"wprowadzono "<<wprowadzone-1<<" liczb\n";
-    oblicz_maks();
-    cout<<"suma wprowadzonych liczb to: "<<suma<<endl;
-    return 0;
+    cout<<"Wpisano ESC\n Wprowadzono "<<licznik<<" liczb\n";
+    cout<<"Suma podanych liczb wynosi "<<suma<<endl;
+    return(0);
 }
